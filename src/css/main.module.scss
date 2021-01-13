@@ -1,0 +1,35 @@
+@import "./variables.scss";
+
+.add-inventory-page {
+  padding: 2vw;
+  color: $primary-purple;
+}
+h1 {
+  font-size: 2.5em;
+}
+label {
+  display: block;
+  font-weight: 500;
+  padding: 2px 4px;
+}
+input {
+  margin-right: 4px;
+  font-size: 1.15rem;
+  padding: 4px;
+}
+.input-wrapper {
+  display: flex;
+}
+.button-wrapper {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    button {
+        color: $primary-purple;
+        border-radius: 0;
+        border: 1px solid lightgrey;
+        padding: 6px;
+        width: 150px;
+        cursor: pointer;
+    }
+}

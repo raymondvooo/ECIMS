@@ -1,0 +1,43 @@
+@import "./variables.scss";
+
+html {
+  font: 400 14px 'Playfair Display', serif;
+}
+button {
+  font: 500 14px 'Playfair Display', serif;
+}
+.app {
+  height: calc(100vh - 52px);
+  background-color: $primary-grey;
+
+}
+
+.navbar-top {
+  display: flex;
+  background-color: $primary-purple;
+  padding: 10px;
+  color: white;
+  height: 32px;
+}
+.navbar-top-wrapper-1 {
+  display: flex;
+  align-items: center;
+  svg {
+    margin: 0 12px 0 0;
+    cursor: pointer;
+  }
+}
+.navbar-app-title {
+  font-size: 1.75rem;
+  font-weight: 400;
+  cursor: default;
+}
+.MuiDrawer-root .MuiDrawer-paper {
+  top: 52px;
+  padding: 12px;
+  font: 500 1.15rem Roboto, Helvetica Neue, sans-serif;
+  background-color: $primary-grey;
+}
+.drawer-link {
+  cursor: pointer;
+}
