@@ -52,7 +52,9 @@ class Navbar extends Component {
           <div className="navbar-top-wrapper-1">
             <Dropdown onClick={this.toggleDrawer(true)} />
             <Drawer anchor={'left'} open={this.state.sidebar} onClose={this.toggleDrawer(false)}>
-              <div className="drawer-link" onClick={() => this.navigate('/')}>Add New Inventory</div>
+              <Link to={"/"} className="drawer-link">
+                Add New Inventory
+              </Link>
             </Drawer>
             <div className="navbar-app-title">ECIMS</div>
           </div>
