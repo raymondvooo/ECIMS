@@ -19,7 +19,7 @@ class AddInventory extends Component {
         return (
             <div className={styles["add-inventory-page"]}>
             <h1>
-                Add New Inventory
+                Add New Inventory!!!!
             </h1>
             <div className={styles['input-wrapper']}>
                 <div>
